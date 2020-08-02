@@ -1,6 +1,4 @@
-# ahorasi
-
-> My kickass Nuxt.js project
+# nuxt
 
 ## Build Setup
 

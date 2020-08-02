@@ -1,15 +1,5 @@
 <template>
 	<div>
-		Inicio
+		hola
 	</div>
 </template>
-
-<script>
-	export default {
-		
-	}
-</script>
-
-<style lang="css" scoped>
-
-</style>
