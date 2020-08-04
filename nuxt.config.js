@@ -20,10 +20,11 @@ import colors from 'vuetify/es5/util/colors'
 		plugins: [
 		],
 		components: true,
-		loading: '~/components/Loading.vue',
+		loading:{color:"#202020"}, //'~/components/Loading.vue',
 		buildModules: [
 			'@nuxt/typescript-build',
 			'@nuxtjs/vuetify',
+			"@nuxtjs/dotenv",
 		],
 		modules: [
 		],
@@ -45,5 +46,5 @@ import colors from 'vuetify/es5/util/colors'
 			}
 		},
 		build: {
-		}
+		},
 	}

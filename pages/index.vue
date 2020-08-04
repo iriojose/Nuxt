@@ -23,11 +23,5 @@ import Conceptos from '~/services/Conceptos';
 				{ rel: 'icon', type: 'image/x-icon', href: '/icono.ico' }
 			]
 		},
-		mounted(){
-			console.log("hola");
-		},
-		methods:{
-			
-		}
 	}
 </script>
