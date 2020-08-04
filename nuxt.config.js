@@ -3,7 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 	export default {
 		mode: 'spa',
 		target: 'server',
-		head: {
+		/*head: {
 			titleTemplate: "E-commerce",
 			title: "",
 			meta: [
@@ -14,12 +14,13 @@ import colors from 'vuetify/es5/util/colors'
 			link: [
 				{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
 			]
-		},
+		},*/
 		css: [
 		],
 		plugins: [
 		],
 		components: true,
+		loading: '~/components/Loading.vue',
 		buildModules: [
 			'@nuxt/typescript-build',
 			'@nuxtjs/vuetify',
